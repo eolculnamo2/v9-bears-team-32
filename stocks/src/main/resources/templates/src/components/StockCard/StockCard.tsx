@@ -58,9 +58,9 @@ const StockCard: FC<iStockCard> = ({stock}): JSX.Element => {
         <div>
           <span className="StockCard__label">Stock Price </span>{accounting.formatMoney(currentValue)}
         </div>
-        <div>
+        {/* <div>
           <span className="StockCard__label">Gains/Losses </span>{accounting.formatMoney(purchasePrice - currentValue)}
-        </div>
+        </div> */}
       </div>
     </>
   )

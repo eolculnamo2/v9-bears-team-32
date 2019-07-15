@@ -83,7 +83,6 @@ function UserDetailsPanel(): JSX.Element {
           >
             Buy
           </button>
-        <button className="UserDetailsPanel__sell-btn">Sell</button>
       </div>
       {showBuyModal &&
       <BuyModal
